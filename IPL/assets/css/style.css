@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+html body div{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+div{
+    display: block;
+}
+
+
+
+html{
+    height: 551.33px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* navbar */
+
+.navbar{
+    height: 38px;
+    background-color: #061e59;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.BCCI-logo{
+    background-image: url("BCCI_logo.png");
+    height: 30px;
+    width: 25px;
+    font-size: 16px;
+    background-size: cover;
+    /* width: 2%; */
+    margin-left: 60px;
+    /* padding-top: 5px; */
+
+}
+
+.p{
+    font-size: 14px;
+    margin-left: 30px;
+    padding-top: 8px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 0.5px solid white;
+}
+
+.followUs{
+    margin-right: 40px;
+}
+
+.followUs a{
+    color: #FFFFFF4D;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+.followUs i{
+    color: #061e59;
+    background-color: rgba(255, 255, 255, .3);
+    border: 5px solid transparent;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+    /* padding-right: 10px; */
+    /* padding: 10px; */
+    /* width: 20%; */
+}
+
+/*  navbar-second  */
+
+.navbar-second{
+    /* position: absolute; */
+    /* margin-top: 0px; */
+    height: 55px;
+    background-color: #19398a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 18px;
+    box-shadow:0px 4px 8px hsl(0deg 0% 7% / 50%);
+}
+
+.ipl-logo{
+    background-image: url("ipl_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    margin-right: 140px;
+}
+
+.fa-square-poll-vertical{
+    color: #fb600a;
+    font-size: 10px;
+    width: 50px;
+    height: 23px;
+    margin-right: 20px;
+    line-height: 12px;
+}
+
+.fa-magnifying-glass{
+    color: #FFFFFF;
+    font-size: 23px;
+    width: 22px;
+    height: 22px;
+}
+
+.anchor-tags{
+    width: 60%;
+}
+
+.anchor-tags a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0px 12px;
+    /* letter-spacing: 0.06em; */
+    font-weight: 700;
+}
+
+.anchor-tags a:hover{
+    text-decoration: underline;
+    text-underline-position: auto;
+}
+
+/* hero-section */
+
+.hero-section{
+    background-image: url("hero_section1.png");
+    background-size: cover;
+    position: 0;
+    height: 370px;
+    /* box-shadow: 10px 10px 80px black; */
+}
+
+.section-1{
+    background-color: #10172b;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    /* box-shadow: 10px 10px 50px black; */
+    height: 235px;
+    padding: 50px 0px;
+    display: block;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.container{
+    /* margin: 0px 27px; */
+    /* padding: 0px 7.5px; */
+    /* height: 235px; */
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px){
+    .container{
+        max-width: 960px;
+    }
+}
+
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.story-control-title{
+    margin-bottom: 15px;
+}
+
+.story-control-title h2{
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 600;
+    display: block;
+    height: 21.5px;
+
+    /* margin-block-start: 0.83em; */
+    /* margin-block-end: 0.83em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.story-control-title span {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.story-imgpos{
+        display: flex;
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        height: 177px;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.story-frame {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.story-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.story-frame:hover{
+    image-rendering: crisp-edges;
+    font-size: 10px;
+    border: 1px dotted #aa5359;
+}
+.story-frame img:hover{
+    width: 122px;
+    height: 142px;
+    margin: 4px 4px 4px 4px;
+    border-radius: 10px;
+    animation-delay: 20s;
+}
+
+img{
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.story-imgpos ul h3{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+    flex-shrink: 0;
+    width: 130px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 0;
+    padding-left: 0;
+    outline: 0;
+}
+
+.fa-trophy{
+    color: #ffb02e;
+    background: transparent;
+}
+
+/*  section 2 */
+
+.section-2{
+    height: 209px;
+    padding-bottom: 30px;
+}
+
+.container-2{
+    width: 100%;
+    margin: 0px 86px;
+    padding: 0px 7.5px;
+}
+
+.what-r-u-l-f{
+    color: #1d1d1d;
+    font-style: italic;
+    font-weight: 600;
+    width: 100%;
+    padding: 30px 0px;
+    line-height: 1.2;
+    /* margin-block-start: 0.83em; */
+    /* margin-block-end: 0.83em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+
+}
+@media screen and (max-width: 1367px){
+.what-r-u-l-f{
+    font-size: 24px;
+}
+}
+
+
+
+
